@@ -1,0 +1,135 @@
+Hi..This is my personal Interview preparation repository.
+It consists of important questions
+It consists of previous interview questions asked in my interviews
+
+Both technical and non technical aspects.
+Non technical - HR round
+Technical - Html5,Css3,Javascript,React js,Mongodb,express js,node js,mysql,AWS and Problem solving
+
+
+Self Learning Additional Content Apart from Roadmap
+
+Js:- 
+1.Array Methods
+2.String Methods
+3.Math Methods
+4.Number Methods
+5.BigInt, Symbol
+6.Closure
+7.Function scoping and hoisting
+8.Array.prototype Methods
+9.Call,Apply,Bind
+10.Object.keys and Object.entries Methods
+11.Deep Copy vs Shallow Copy
+12.Event Bubbling
+13.Event Delegation
+14.SetInterval
+15. Weak Mapset
+16. Shadowing
+17. ES5 VS ES6
+18. Loadsh
+
+
+HTML:-
+1.Semantic Elements
+2.Video Tag, Canvas Tag
+
+CSS:- 
+1.Overflow
+2.Media Queries
+3.Animations and transform
+4.Grid
+5.Opacity
+6.Measurements
+
+TailWind CSS:- 
+1.Grid
+2.Container
+3.Transition,Trnaslation,Animations
+4.Customization
+
+
+CSS Frameworks:- 
+1.Bootstrap
+2.Saas
+ 
+
+
+Practical:-
+1.Coding practice (codekata,leetcode,hackerrank)
+2.html,css practice(Webkata,codepen,codesandbox,flexbox froggy,css dinner, css battle,
+grid gardens, flexbox adventures,flexbox defenses)
+3.Tailwind projects (landing page, portfolio)
+4.Using Tailwind CLI Method / Using POSTCSS method
+5.Dom event based tasks
+6.Dom based Games (hangman/memmoryflip/x0/puzzle/Dice Game/flappy bird/ludo)
+7.Timer/countdown/alarm
+
+Interview Technical logical:- 
+1.Landing page
+2.create a circle
+3.Poisiton with Opacity
+4.Pattern based problem
+5.Array method based problem
+6.Company problems(FAANG)
+7.RWD
+8.Figma to html and css (refer landing page session) 
+9.Figma to html and Tailwind css (refer landing page task)
+10.Gradients,Borders,Animations.
+11.Color change.
+12.Event Based Styles.
+
+------------------------------------------------------------------------------
+Topics / Concepts should know before going to interview
+
+Javascript:- 
+1. JS 
+2.Array methods
+3. API 
+4. Destructuring (Array and Object)
+5. DOM
+6. Callback ,callback hell
+7. Eventloop,web api,call stack,queue
+8.promise
+9.Async-await with error handling
+10.Hoisting,closure,currying
+11.ES5 VS ES6
+12.call,bind,apply
+13.pattern based program
+14.Array method program
+15. Sorting program
+
+React:- 
+1.React 
+2.Library vs framework
+3.Virtual Dom
+4.JSX
+5.Component ,reusability
+6.props vs state ,props drilling
+7.usecontext
+8.useeffect ,lifecycle,[]
+9.Conditional rendering
+10.Hooks(usestate,useeffect,usecontext,useparams,usenavigation,usehistory,usereducer, custom hooks)
+11.api fetch (fetch,axios)
+12.counter function
+13.CRUD
+14.Redux toolkit
+15.GSM (Global State Management)
+
+DB:-
+1.RDBMS VS NRDMS
+2.MongoDB Queries ,operators
+3. Aggregation,replicas
+4.Mongoose,Mongoclient,Atlas,Compass
+
+Node:- 
+1.Nodejs
+2.Express js
+3.CORS
+4.JWT,Bycrypt,salt,Morgan
+5. Middleware
+6.Custom Middleware
+7.MVC Pattern
+8. How to start server
+9. CRUD using expressjs
+10. CRUD Using Node Js
