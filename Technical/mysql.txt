@@ -1,0 +1,51 @@
+1. What is MySQL?
+
+Answer:
+MySQL is an open-source relational database management system (RDBMS) based on SQL (Structured Query Language). It is used for storing, retrieving, and managing data in databases.
+
+
+---
+
+2. What is the difference between INNER JOIN and LEFT JOIN?
+
+Answer:
+
+INNER JOIN: Returns records that have matching values in both tables.
+
+LEFT JOIN: Returns all records from the left table and the matched records from the right table; unmatched records from the right table are NULL.
+
+
+
+---
+
+3. What are primary keys and foreign keys?
+
+Answer:
+
+Primary Key: A unique identifier for a record in a table, ensuring no duplicate values.
+
+Foreign Key: A field in one table that uniquely identifies a row in another table, establishing a relationship between the two tables.
+
+
+
+---
+
+4. What is normalization, and why is it important?
+
+Answer:
+Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It ensures efficient data storage and helps maintain relationships between tables.
+
+
+---
+
+5. How do you perform a backup and restore in MySQL?
+
+Answer:
+
+Backup: Use the mysqldump command:
+
+mysqldump -u username -p database_name > backup_file.sql
+
+Restore: Use the mysql command:
+
+mysql -u username -p database_name

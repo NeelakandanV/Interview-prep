@@ -1,0 +1,133 @@
+1. What is Node.js and why is it used?
+
+Answer:
+Node.js is a JavaScript runtime built on Chrome's V8 engine that allows developers to run JavaScript on the server side. It is used for building scalable, high-performance applications, particularly for real-time applications like chat and gaming.
+
+
+---
+
+2. What is npm?
+
+Answer:
+npm (Node Package Manager) is the default package manager for Node.js, used for installing, managing, and sharing packages or modules in JavaScript applications.
+
+
+---
+
+3. Difference between require and import?
+
+Answer:
+
+require: CommonJS syntax for importing modules, used in Node.js.
+
+import: ES6 syntax for importing modules, used in both Node.js (with the right configuration) and browsers.
+
+
+
+---
+
+4. What is asynchronous and synchronous code in Node.js?
+
+Answer:
+
+Synchronous code: Executes sequentially, blocking further execution until the current operation completes.
+
+Asynchronous code: Executes without blocking, allowing other operations to run while waiting for tasks to complete, typically using callbacks, promises, or async/await.
+
+
+
+---
+
+5. Middlewares in Node.js?
+
+Answer:
+Middleware are functions that have access to the request and response objects. They can modify requests, end responses, or call the next middleware function. Common uses include logging, authentication, and parsing request bodies.
+
+
+---
+
+6. How to handle file uploads?
+
+Answer:
+Use middleware like multer to handle file uploads in Express.js. Example setup:
+
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/' });
+app.post('/upload', upload.single('file'), (req, res) => {
+    res.send('File uploaded!');
+});
+
+
+---
+
+7. Error handling in Node.js?
+
+Answer:
+Use try-catch for synchronous code and .catch() for promises. In Express, define error-handling middleware to catch and respond to errors.
+
+
+---
+
+8. How to handle authorization in Node.js?
+
+Answer:
+Implement authorization by checking user roles or permissions in middleware functions before granting access to specific routes.
+
+
+---
+
+9. How to handle authentication in Node.js?
+
+Answer:
+Use libraries like passport or jsonwebtoken to manage user authentication, implementing strategies such as local authentication or JWT for secure login processes.
+
+
+---
+
+10. Common HTTP codes?
+
+Answer:
+
+200: OK
+
+201: Created
+
+400: Bad Request
+
+401: Unauthorized
+
+403: Forbidden
+
+404: Not Found
+
+500: Internal Server Error
+
+
+
+---
+
+11. How to handle cookies?
+
+Answer:
+Use the cookie-parser middleware to parse cookies from the request. Set cookies using res.cookie():
+
+app.use(cookieParser());
+res.cookie('name', 'value', { httpOnly: true });
+
+
+---
+
+12. How to handle sessions?
+
+Answer:
+Use the express-session middleware to manage sessions. Configure it in your Express app:
+
+const session = require('express-session');
+app.use(session({ secret: 'your_secret', resave: false, saveUninitialized: true }));
+
+13. JWT in Node.js
+JSON Web Tokens (JWT) are used for securely transmitting information between parties as a JSON object. In Node.js, you can use libraries like jsonwebtoken to create and verify tokens for user authentication.
+
+
+14.Asynchronous Handling in Node.js
+Node.js handles asynchronous operations using callbacks, promises, and async/await. This non-blocking model allows for efficient I/O operations, improving performance in web applications.

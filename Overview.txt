@@ -7,7 +7,16 @@ Non technical - HR round
 Technical - Html5,Css3,Javascript,React js,Mongodb,express js,node js,mysql,AWS and Problem solving
 
 
+
+----Basic Git Concepts and Best Practices
+Basic concepts include repositories, commits, branches, and merges. Best practices include writing clear commit messages, using branches for features, and regular pulls/merges to avoid conflicts.
+
+
+
+
+
 Self Learning Additional Content Apart from Roadmap
+
 
 Js:- 
 1.Array Methods
@@ -28,6 +37,9 @@ Js:-
 16. Shadowing
 17. ES5 VS ES6
 18. Loadsh
+19.Debouncing
+20.currying
+21.Polyfill
 
 
 HTML:-

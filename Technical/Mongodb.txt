@@ -1,0 +1,44 @@
+1. What is MongoDB?
+
+Answer:
+MongoDB is a NoSQL document-oriented database that stores data in flexible, JSON-like documents. It allows for high scalability, performance, and ease of use.
+
+
+---
+
+2. Difference between SQL and NoSQL databases?
+
+Answer:
+
+SQL (Relational): Uses structured schemas and tables with fixed rows and columns. Supports ACID transactions.
+
+NoSQL (Non-relational): Flexible schemas, often unstructured, supports various data models (document, key-value, graph). Scalable and can handle large volumes of data.
+
+
+
+---
+
+3. What is a document in MongoDB?
+
+Answer:
+A document is a basic unit of data in MongoDB, represented in a JSON-like format (BSON). It consists of key-value pairs and can store complex data types.
+
+
+---
+
+4. What is a collection in MongoDB?
+
+Answer:
+A collection is a grouping of MongoDB documents, similar to a table in relational databases. Collections do not require a predefined schema.
+
+
+---
+
+5. Why do we use Mongoose in MongoDB?
+
+Answer:
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a schema-based solution to model application data, offers built-in data validation, and simplifies interactions with the database
+
+
+
+6.Schema design in MongoDB involves defining document structures for collections. Indexing improves query performance by creating data structures that allow for fast data retrieval.

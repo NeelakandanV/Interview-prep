@@ -1,0 +1,88 @@
+1. Difference between display:none and visibility:hidden.
+
+display: none: The element is removed from the document flow; it takes up no space.
+
+visibility: hidden: The element is hidden but still takes up space in the layout.
+
+
+
+2. What is the difference between inline and inline-block elements?
+
+inline: Elements do not start on a new line and only take up as much width as necessary (e.g., <span>).
+
+inline-block: Elements do not start on a new line but can have width and height set (e.g., <img>).
+
+
+
+3. Difference between margin and padding.
+
+margin: Space outside an element's border; creates distance between elements.
+
+padding: Space inside an element's border; creates distance between the content and the border.
+
+
+
+4. Difference between class and id in CSS.
+
+class: Can be applied to multiple elements; defined with a dot (.) in CSS.
+
+id: Unique to a single element; defined with a hash (#) in CSS.
+
+
+
+5. Difference between em and rem units in CSS.
+
+em: Relative to the font size of the element (inherits from parent).
+
+rem: Relative to the root element's font size (typically <html>).
+
+
+
+6. Difference between flex and grid layouts in CSS.
+
+flex: One-dimensional layout model for aligning items in a row or column.
+
+grid: Two-dimensional layout model for defining both rows and columns.
+
+
+
+7. What are semantic and non-semantic elements in HTML?
+
+semantic elements: Clearly describe their meaning in a human- and machine-readable way (e.g., <header>, <article>).
+
+non-semantic elements: Do not provide meaning about their content (e.g., <div>, <span>).
+
+
+
+8. Explain Box model in CSS.
+
+The box model describes the rectangular boxes generated for elements, including margins, borders, padding, and the actual content area.
+
+
+
+9. Explain block and inline elements.
+
+block elements: Start on a new line, take up the full width available (e.g., <div>, <p>).
+
+inline elements: Do not start on a new line, only take up as much width as necessary (e.g., <span>, <a>).
+
+
+
+10. What is responsive web design?
+
+Responsive web design is an approach that makes web pages render well on various devices and window or screen sizes by using fluid grids, flexible images, and CSS media queries.
+
+
+11. HTML5 Semantic Tags
+Semantic tags (e.g., <article>, <section>, <header>, <footer>, <nav>) provide meaning to the web content, improving accessibility and SEO by defining the structure and role of elements.
+
+
+12.CSS3 Media Queries
+Media queries enable responsive design by applying different styles based on device characteristics (like width, height, or orientation). They are written using @media rules.
+
+
+13. *Iframes in HTML*:  
+   An iframe (inline frame) is an HTML element used to embed another HTML document inside the current page, allowing external content to be displayed within a webpage.
+
+14. *Marquee tag in HTML*:  
+   The <marquee> tag is an HTML element used to create a scrolling or moving text or image effect across the webpage, though it is now obsolete and not recommended for use in modern web design.

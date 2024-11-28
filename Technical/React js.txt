@@ -1,0 +1,116 @@
+1. Difference between React Components and functions in JavaScript.
+
+React Components: Reusable, self-contained pieces of UI that can accept props and manage state. They return JSX.
+
+Functions: General JavaScript functions that execute logic and can return values but do not have a lifecycle or manage UI.
+
+
+
+2. Difference between props and state in React.
+
+props: Immutable data passed from parent to child components; used to render UI.
+
+state: Mutable data maintained within a component; used to control the component's behavior and render changes.
+
+
+
+3. Difference between class Components and function Components.
+
+class Components: ES6 classes that can hold state and lifecycle methods.
+
+function Components: Simpler functions that can use hooks to manage state and lifecycle features.
+
+
+
+4. What are hooks in React?
+
+Hooks are functions that allow functional components to use state and other React features (like lifecycle methods) without converting to class components.
+
+
+
+5. What are commonly used hooks in React?
+
+useState: Manages state in functional components.
+
+useEffect: Handles side effects, like data fetching or subscriptions.
+
+useContext: Consumes context values.
+
+
+
+6. Lifecycle methods in React.
+
+Methods called at different phases of a component's life, such as componentDidMount, componentDidUpdate, and componentWillUnmount.
+
+
+
+7. Equivalent of componentDidMount and componentDidUpdate in React.
+
+componentDidMount: Use useEffect with an empty dependency array.
+
+componentDidUpdate: Use useEffect with specific dependencies to respond to changes.
+
+
+
+8. How to handle forms in React.
+
+Use controlled components by managing form input values in state and updating state on input change events.
+
+
+
+9. How to handle events in React.
+
+Use event handlers (e.g., onClick, onChange) directly in JSX, passing the function to handle the event.
+
+
+
+10. How to handle state in React.
+
+Use the useState hook in functional components or this.setState in class components to manage and update state.
+
+
+
+11. How to handle routing in React.
+
+Use the react-router-dom library to define routes and manage navigation between different components or pages.
+
+
+
+12. What is virtual DOM and how does it work?
+
+The virtual DOM is a lightweight copy of the actual DOM. React updates the virtual DOM first, calculates differences (diffing), and then updates the real DOM efficiently.
+
+
+
+13. Controlled and uncontrolled components in React.
+
+controlled components: Form inputs whose values are controlled by React state.
+
+uncontrolled components: Form inputs that manage their own state internally (using refs).
+
+
+
+14. What is higher-order components?
+
+Higher-order components (HOCs) are functions that take a component and return a new component, often used for code reuse and to enhance components with additional functionality.
+
+
+
+15.React Lifecycle Methods and Hooks
+Lifecycle methods (e.g., componentDidMount, componentDidUpdate) manage component behavior at different stages. Hooks like useEffect handle side effects and useState manages state in functional components.
+
+
+16.1. *Reconciliation in React*:  
+   Reconciliation is the process by which React updates the DOM by comparing the previous virtual DOM with the new one and efficiently updating only the changed parts.
+
+
+17.What is Shadow?
+  Shadow DOM is a web standard that's a key part of the DOM in the MERN stack:
+
+What it does
+
+Shadow DOM creates a separate bubble around a part of the DOM, isolating JavaScript and CSS from the rest. This prevents styles and scripts from interfering with each other.
+
+Benefits
+
+Shadow DOM is essential for creating reusable, self-contained components that are immune to style and naming conflicts.

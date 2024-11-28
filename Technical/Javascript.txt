@@ -1,0 +1,101 @@
+1. Explain var, let, and const keywords.
+
+var: Function-scoped or globally scoped variable that can be re-assigned; hoisted to the top.
+
+let: Block-scoped variable that can be re-assigned; not hoisted.
+
+const: Block-scoped variable that cannot be re-assigned; contents can change if an object/array.
+
+
+
+2. Explain Bitwise operators.
+
+Operate on binary representations of numbers:
+
+AND (&): 1 if both bits are 1.
+
+OR (|): 1 if at least one bit is 1.
+
+XOR (^): 1 if bits are different.
+
+NOT (~): Inverts bits.
+
+Left Shift (<<): Shifts bits left, filling with 0s.
+
+Right Shift (>>): Shifts bits right, preserving sign.
+
+Unsigned Right Shift (>>>): Shifts bits right, filling with 0s.
+
+
+
+
+3. Difference between '==' and '===' operator.
+
+==: Loose equality; checks value and performs type coercion if needed.
+
+===: Strict equality; checks both value and type without coercion.
+
+
+
+4. Difference between null and undefined.
+
+null: Represents an intentional absence of any object value.
+
+undefined: Indicates a variable has been declared but not assigned a value.
+
+
+
+5. What is hoisting?
+
+Hoisting is JavaScript's behavior of moving variable and function declarations to the top of their containing scope during compilation.
+
+
+
+6. What is closure?
+
+A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope.
+
+
+
+7. What is 'this' keyword?
+
+The this keyword refers to the context in which a function is called, which can vary based on how the function is invoked.
+
+
+
+8. What is a callback function?
+
+A callback function is a function passed as an argument to another function, executed after a specific event or condition is met.
+
+
+
+9. What is a higher-order function?
+
+A higher-order function is a function that takes one or more functions as arguments or returns a function as its result.
+
+
+
+10. What is a promise?
+
+A promise is an object representing the eventual completion or failure of an asynchronous operation, allowing for cleaner asynchronous code handling.
+
+
+
+11. What is a pure function?
+
+A pure function is a function that always returns the same output for the same input and has no side effects (does not modify external state).
+
+
+
+12. What is prototypal inheritance?
+
+Prototypal inheritance is a feature in JavaScript where objects can inherit properties and methods from other objects through the prototype chain.
+
+
+13. Lexical Scope and 'this' Binding in JavaScript
+Lexical scope determines variable accessibility based on the location in the source code, while this binding refers to the context in which a function is executed. Arrow functions lexically bind this.
+
+
+14.shadowing in javascript
+
+shadowing occurs when a variable declared within a certain scope (e.g., inside a function or block) has the same name as a variable in an outer scope. The inner variable "shadows" the outer one, meaning that within the inner scope, the outer variable is temporarily hidden and inaccessible

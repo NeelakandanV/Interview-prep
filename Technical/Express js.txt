@@ -1,0 +1,56 @@
+1. What is Express.js, and why is it used?
+
+Answer:
+Express.js is a web application framework for Node.js that simplifies building web and mobile applications by providing routing, middleware support, and integration with databases.
+
+
+---
+
+2. How do you define a route in Express.js?
+
+Answer:
+Use app.get(), app.post(), etc. For example:
+
+app.get('/api/users', (req, res) => {
+    res.send('List of users');
+});
+
+
+---
+
+3. What is middleware in Express.js?
+
+Answer:
+Middleware are functions that process requests and responses. They can modify requests, end responses, or call the next middleware. Example:
+
+app.use((req, res, next) => {
+    console.log(req.method);
+    next();
+});
+
+
+---
+
+4. How do you handle errors in Express.js?
+
+Answer:
+Use error-handling middleware with four parameters:
+
+app.use((err, req, res, next) => {
+    res.status(500).send('Error occurred!');
+});
+
+
+---
+
+5. What is the difference between app.use() and app.get()?
+
+Answer:
+
+app.use(): Mounts middleware for all HTTP methods.
+
+app.get(): Defines a route specifically for GET requests.
+
+
+6.Middleware and Routing in Express.js
+Middleware functions process requests before reaching the route handler. Routing in Express allows defining URL patterns to respond with specific handlers, enabling RESTful API structures.

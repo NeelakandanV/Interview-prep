@@ -1,0 +1,13 @@
+Time complexity 
+
+Sorting Algorithms -
+1.Bubble sort  -O(n^2)
+2.Selection sort -O(n^2)
+3.Insertion sort -O(n^2)
+4.Counting sort -O(n)
+5.Merge sort -O(nlogn)
+
+Searching Algorithms
+1.Linear search -O(n)
+2.Binary search -O(logn)
+3.Ternary search -O(log3n)
