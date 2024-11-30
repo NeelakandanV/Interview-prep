@@ -11,6 +11,13 @@ Technical - Html5,Css3,Javascript,React js,Mongodb,express js,node js,mysql,AWS 
 ----Basic Git Concepts and Best Practices
 Basic concepts include repositories, commits, branches, and merges. Best practices include writing clear commit messages, using branches for features, and regular pulls/merges to avoid conflicts.
 
+Summary of the Workflow:
+git init sets up the repository.
+git add stages your changes.
+git commit saves a snapshot of the changes.
+git branch -M renames the default branch to main.
+git remote add connects your local repository to a remote repository (e.g., on GitHub).
+git push uploads your local commits to the remote repository.
 
 
 
