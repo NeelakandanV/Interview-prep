@@ -22,6 +22,17 @@ git push uploads your local commits to the remote repository.
 
 
 
+---Backend
+1.Event Emitter
+2.Caching
+3.Clustering
+4.Load balancing
+5.Memory Management
+6.Refresh tokens
+
+
+
+
 Self Learning Additional Content Apart from Roadmap
 
 
